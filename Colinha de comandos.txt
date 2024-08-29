@@ -27,7 +27,7 @@ Listar versões instaladas
 dotnet --list-sdks
 
 Criar novo projeto console
-dotnet new console -n "Aula01" (nome do projeto)
+dotnet new console -n "nome" (nome do projeto)
 
 Executar programa
 dornet run
