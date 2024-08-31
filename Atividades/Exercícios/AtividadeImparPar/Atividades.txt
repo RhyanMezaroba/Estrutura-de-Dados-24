@@ -1,0 +1,6 @@
+Atividade
+---------
+
+Escreva um algoritmo que armazena em dois vetores separadosos primeiros
+100 números pares e ímpares. No final, imprima a sequência armazemada
+em cada um deles.
