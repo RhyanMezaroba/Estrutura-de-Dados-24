@@ -1,27 +1,27 @@
 ﻿using System;
+
 class Program
-{    
+{
     static void Main()
     {
-        ContarNumeros();
+        ContaNumero();
     }
 
-    static void ContarNumeros()
+    static void ContaNumero()
     {
-        // Variáveis para armazenar números pares e ímpares
         Console.WriteLine("Números Pares:");
-        for (int i = 1; i <= 100; i++)
+        for(int i = 0; i <= 100; i++)
         {
-            if (i % 2 == 0) // Verifica se o número é par
+            if(i % 2 == 0)
             {
                 Console.WriteLine(i);
             }
         }
-        
+
         Console.WriteLine("Números Ímpares:");
-        for (int i = 1; i <= 100; i++)
+        for(int i = 0; i <= 100; i++)
         {
-            if (i % 2 != 0) // Verifica se o número é ímpar
+            if(i % 2 == 0)
             {
                 Console.WriteLine(i);
             }
