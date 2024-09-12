@@ -1,0 +1,5 @@
+Atividade:
+Utilizando o conceito de plha (Stack<>) com o s métodos Pop() e Push(), escreva um programa que 
+leia uma entrada de usuário e identifique se a palavra informada é ou não um PALÍNDROMO.
+
+Palíndromo: Palavra que de trás para frente é o mesmo significado
