@@ -6,4 +6,4 @@ Atividade:
 Crie um novo projeto para um programa que armazene em uma lista informações sobre livros, 
 como Nome, Editora, Autor e número de páginas.
 Preencha esta lista com no mínimo 5 livros e ao final percorra esta lista e imprima as informações
-do livro com o maior nímero de páginas.
+do livro com o maior número de páginas.
