@@ -12,6 +12,7 @@ namespace Atividade_Pilha
         public DateTime CallTime { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
+        public TimeSpan Duracao {get; set; }
         public string? Consultant { get; set; }
     }
 }

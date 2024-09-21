@@ -1,8 +1,8 @@
-﻿using Atividade_Pilha;
+﻿using System.Diagnostics;
+using Atividade_Pilha;
 
-Stack<int> stack = new Stack<int>();
+Stack<CallCenter> stack = new Stack<CallCenter>();
 {
-
     Random random = new Random();
 
     CallCenter center = new();
@@ -13,7 +13,9 @@ Stack<int> stack = new Stack<int>();
 
     while(center.AreWaitingCalls())
     {
-        Thread.Sleep(3000);
+        Stopwatch timer = new Stopwatch();
+        timer.Start();
+        Thread.Sleep(1000);
         IncomingCall call = center.Answer("Marquinhos");
         Console.WriteLine(
         @$"{DateTime.Now:HH:mm:ss} 
@@ -23,19 +25,19 @@ Stack<int> stack = new Stack<int>();
         );
         Thread.Sleep(random.Next(1000, 10000));
         center.End(call);
+        timer.Stop();
+        call.Duracao = timer.Elapsed;
         Console.WriteLine(
         @$"Chamado: {call.Id} 
-        Encerramento às: {call.EndTime}"
-        );
-    }
-    foreach(Object  obj in stack)
-    {
-        Console.WriteLine(stack);
-    }
-    int inverted;
+        Encerramento às: {call.EndTime} 
+        Duração total de {call.Duracao.TotalSeconds} segundos!");
+        Console.WriteLine();
+    };
     while(stack.Count > 0)
     {
-        inverted += stack.Pop ();
+        center.Pop(1234);
+        center.Pop(1369);
+        center.Pop(2468);
+        center.Pop(1478);
     }
-Console.WriteLine (inverted);
 }

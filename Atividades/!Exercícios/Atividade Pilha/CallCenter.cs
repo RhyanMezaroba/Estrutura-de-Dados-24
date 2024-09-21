@@ -26,6 +26,17 @@ namespace Atividade_Pilha
                 }
             );
         }
+        public void Pop(int clientId) // Variáveis como "clientId", podem começar com letras minúsculas para não confundir
+        {
+            Calls!.Enqueue(
+                new IncomingCall()
+                {
+                    Id = ++_counter,
+                    ClientId = clientId,
+                    CallTime = DateTime.Now
+                }
+            );
+        }
     public IncomingCall Answer(string consultant)
         {
             // Validação: Verificar se tem atendimentos na fila
