@@ -1,4 +1,4 @@
-﻿//Diferente da Taela Hash o Dictionary nos permite, especificar o tipo de dado que será utilizado nos pares
+﻿//Diferente da Tabela Hash o Dictionary nos permite, especificar o tipo de dado que será utilizado nos pares
 // Key => Value
 // Isso nos fornece uma estrutura fortemente tipada 
 
@@ -30,7 +30,7 @@ if(dictionary.ContainsKey("Chave 2"))
     Console.WriteLine($"Chave 2: {dictionary["Chave 2"]}");
 }
 
-// Outra forma de obter o balor e vitar erro 
+// Outra forma de obter o valor e vitar erro 
 dictionary.TryGetValue("Chave 4", out string? valor);
 if(valor is not null)
     Console.WriteLine($"Chave 4: {valor}");
