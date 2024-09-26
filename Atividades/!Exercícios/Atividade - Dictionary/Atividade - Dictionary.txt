@@ -1,0 +1,11 @@
+Exercício
+
+__________________________________
+
+Escreva um programa para auxiliar empregadores de uma loja a encontrar a localização, em que um produto deveria
+se encontrar, imagine que cada empregador tem um telefone com a sua aplicação, que deve ser usada para escanear 
+um código do produto e lhes dizer em que prateleira ele deve estar nomeadas de A1 à C9. Para resolver este problema
+devemos armazenar os dados em uma TABELA HASH, utilizando a clase do tipo DICTIONARY, a chave = string para o
+código de barras e o valor = localização da prateleira. Faça a carga de no mínimo, 20 produtos contendo 5 em 
+cada prateleira diferente o seu programa deve perguntar ao usuário: o código do produto e responder a localização
+da prateleira. Não se esqueça de tratar os erros e evitar mensagens obscuras para os empregadores!
