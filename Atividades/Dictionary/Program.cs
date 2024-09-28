@@ -55,6 +55,13 @@ dicPerson.Add(
         BirthDate = new DateTime(2000, 3, 10),
         Name = "Rhyan Mezaroba"
     }
+    2,
+    new Person()
+    {
+        Id = 0,
+        BirthDate = new DateTime(2000, 3, 10),
+        Name = "Rhyan Mezaroba"
+    }
 );
 
 foreach(KeyValuePair<int, Person> kvp in dicPerson)

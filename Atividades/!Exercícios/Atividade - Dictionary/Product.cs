@@ -9,6 +9,6 @@ namespace Atividade___Dictionary
     {
         public string Id { get; set; }
         public string Name { get; set; }
-        public string location { get; set; }
+        public double Price { get; set; }
     }
 }
