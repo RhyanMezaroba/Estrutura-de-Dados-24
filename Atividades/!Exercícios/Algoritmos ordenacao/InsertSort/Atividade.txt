@@ -1,0 +1,2 @@
+Fazer o exercício da página 52 do Livro C#
+Utilizando o sistema InsertSort
