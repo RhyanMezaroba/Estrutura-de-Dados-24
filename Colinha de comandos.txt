@@ -1,6 +1,12 @@
 COMANDOS GIT
 ---
 
+Mostra os repositórios remotos, com endereços
+git remote -v
+
+Criação de novas branchs e nomeação
+git checkout -b(branch) (nome da branch)
+
 Ver status do repositório local
 git status
 
