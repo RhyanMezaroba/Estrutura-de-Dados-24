@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -22,7 +23,6 @@ namespace ArvoreBinaria
         {
             get {return (BinaryTreeNode<T>) Children[1]; }
             set { Children[1] = value; }
-        }
-        
+        }    
     }
 }
