@@ -25,6 +25,9 @@ git push *origin main* (* muda conforme a necessidade)
 Clonar Repositório Remoto na máquina local:
 git clone https://github.com/RhyanMezaroba/Estrutura-de-Dados-24.git
 
+Adicionar um repositório no Github
+git remote add origin * (*url do Github)
+
 
 COMANDOS .NET
 ---
